@@ -17,7 +17,7 @@
 
 <body class="manrope">
 
-  <header class=" md:flex px-4 py-3 md:py-16 md:px-56 justify-between items-center md:h-screen">
+  <header class=" md:flex px-5 py-3 md:py-16 md:px-56 justify-between items-center md:h-screen">
 
     <div class="space-y-8">
       <h1 class="text-7xl/22 font-extrabold">It's good <br> tea time at The <br> Tea House</h1>
@@ -32,7 +32,7 @@
       </div>
     </div>
 
-    <div class="relative mt-5">
+    <div class="relative mt-18">
 
       <img src="images/banner.png" alt="banner picture">
 
@@ -49,10 +49,10 @@
 
   </header>
 
-  <main class="max-w-6xl mx-auto">
+  <main class="max-w-6xl md:mx-auto mx-5">
 
     <!-- featured products -->
-    <section>
+    <section class="mt-18">
 
       <div class="text-center">
         <h1 class="text-5xl font-extrabold mb-5">
@@ -64,7 +64,7 @@
           don't look even slightly believable.
         </p>
 
-        <div class="grid grid-cols-4 gap-6 mt-12.5">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12.5">
 
           <div class="py-8 px-8 rounded-xl bg-linear-to-b from-[#F4F4F4]">
             <img class="mx-auto mb-8" src="images/tea-1.png" alt="tea">
@@ -96,11 +96,11 @@
 
     <!-- tea presentation section -->
 
-    <section class="mt-32 mb-32">
+    <section class="mt-18 mb-18 lg:mt-32 lg:mb-32">
 
-      <div class="grid grid-cols-1 md:grid-cols-2 ">
+      <div class="grid gap-12 lg:gap-0 grid-cols-1 md:grid-cols-2 ">
 
-        <div class="grid grid-cols-2 gap-8 mr-14">
+        <div class="grid grid-cols-2 gap-8 lg:mr-14">
 
           <div class="grid grid-rows-3 gap-8">
 
@@ -154,7 +154,7 @@
     <!-- review section -->
 
     <section
-      class="bg-linear-to-r from-orange-500 to-red-500 rounded-xl px-18 py-18 text-white grid grid-cols-1 md:grid-cols-2 mb-32">
+      class="bg-linear-to-r from-orange-500 to-red-500 rounded-xl px-5 py-5 md:py-8 lg:px-18 lg:py-18 text-white grid grid-cols-1 md:grid-cols-2 gap-10 mb-32">
 
       <div class="w-5/6 space-y-7 self-center">
 
@@ -166,12 +166,12 @@
 
       </div>
 
-      <div class="relative -right-18">
+      <div class="relative -right-12 lg:-right-18">
 
-        <div class="absolute top-1/4 -left-32 z-10">
+        <div class="absolute top-1/4 -left-8 lg:-left-32 z-10">
 
           <div
-            class="bg-white text-black rounded-lg px-11 py-11 relative max-w-md bg-[url(/images/circles.png)] bg-no-repeat bg-position-[right_2rem_bottom_2rem] mb-8">
+            class="bg-white text-black rounded-lg px-11 py-11 relative max-w-70 md:max-w-90 lg:max-w-md bg-[url(/images/circles.png)] bg-no-repeat bg-position-[right_2rem_bottom_2rem] mb-8">
 
             <div class="bg-white rounded-full absolute -top-5 -left-5">
               <img class="p-1" src="./images/client.png" alt="">
@@ -188,7 +188,7 @@
         </div>
 
         <div
-          class="opacity-40 bg-white text-black rounded-lg px-11 py-11 relative max-w-md bg-[url(/images/circles.png)] bg-no-repeat bg-position-[right_2rem_bottom_2rem] mb-8">
+          class="opacity-40 bg-white text-black rounded-lg px-11 py-11 relative max-w-70 md:max-w-90 lg:max-w-md bg-[url(/images/circles.png)] bg-no-repeat bg-position-[right_2rem_bottom_2rem] mb-8">
 
           <div class="bg-white rounded-full absolute -top-5 -left-5">
             <img class="p-1" src="./images/client.png" alt="">
@@ -202,7 +202,7 @@
 
         </div>
         <div
-          class="opacity-40 bg-white text-black rounded-lg px-11 py-11 relative max-w-md bg-[url(/images/circles.png)] bg-no-repeat bg-position-[right_2rem_bottom_2rem]">
+          class="opacity-40 bg-white text-black rounded-lg px-11 py-11 relative max-w-70 md:max-w-90 lg:max-w-md bg-[url(/images/circles.png)] bg-no-repeat bg-position-[right_2rem_bottom_2rem]">
 
           <div class="bg-white rounded-full absolute -top-5 -left-5">
             <img class="p-1" src="./images/client.png" alt="">
@@ -223,7 +223,7 @@
 
   </main>
 
-  <footer class="bg-linear-to-r from-orange-500/10 to-red-500/10 py-32">
+  <footer class="bg-linear-to-r from-orange-500/10 to-red-500/10 py-32 px-5">
     <div class="max-w-6xl mx-auto">
 
       <div class="flex justify-between items-center">
